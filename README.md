@@ -1,6 +1,15 @@
 # Cabchain
 Decentralized implementation of Cab Service which involves peer-to-peer networking and blockchain. 
 
+# Architecture
+
+![architecture](https://github.com/amitabh27/Cabchain/blob/master/images/archi.jpg)
+
+# Working of Apps : User and Driver app
+
+![Customer App](https://github.com/amitabh27/Cabchain/blob/master/images/usergif.gif) ![Driver App](https://github.com/amitabh27/Cabchain/blob/master/images/drivergif.gif)
+
+
 # Technology Stack
 
 <ul>
@@ -34,15 +43,6 @@ Decentralized implementation of Cab Service which involves peer-to-peer networki
    <li>Hyperledger Composer REST Server</li>
    <li>Ngrok : For tunneling to Composer Server (https://31032026.ngrok.io)</li>
 </ul>
-
-
-# Architecture
-
-![architecture](https://github.com/amitabh27/Cabchain/blob/master/images/archi.jpg)
-
-# Working of Apps
-
-![Customer App](https://github.com/amitabh27/Cabchain/blob/master/images/usergif.gif) ![Driver App](https://github.com/amitabh27/Cabchain/blob/master/images/drivergif.gif)
 
 
 # APIs available 
