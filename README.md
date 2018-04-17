@@ -94,9 +94,9 @@ Decentralized implementation of Cab Service which involves peer-to-peer networki
   </li>
   <li>ngrok.io<br>
     <ul>
-      <li>https://31032026.ngrok.io/api/driver/driverid</li>
-      <li>https://31032026.ngrok.io/api/Ride</li>
-      <li>https://31032026.ngrok.io/api/user/</li>
+      <li>/api/driver/driverid</li>
+      <li>/api/Ride</li>
+      <li>/api/user/</li>
     </ul>
   </li>
   
