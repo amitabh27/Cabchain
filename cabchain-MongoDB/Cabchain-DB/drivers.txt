@@ -1,0 +1,98 @@
+{
+    "_id": {
+        "$oid": "5a6c189e734d1d630318d202"
+    },
+    "driverid": "983456789",
+    "first_name": "Darren",
+    "last_name": "Sammy",
+    "birth_date": "25091986",
+    "driving_license_number": "VW1278G3",
+    "expiry_date": "20/05/2027",
+    "working": "1",
+    "email": "amitabh27993@gmail.com",
+    "driverlocation": "12.8505322 77.65754699999999",
+    "contactno": "983456789",
+    "ratings": {
+        "ridescompleted": "1",
+        "avgrating": "5",
+        "ridescancelled": "0",
+        "behaviour": "4",
+        "drivingskills": "4",
+        "timelypickupdrop": "4",
+        "conditionofvehicle": "4"
+    },
+    "vehicleused": {
+        "carmodelid": "GCMaruti 125",
+        "licenseplate": "KG05 6992",
+        "chassisnumber": "FG34561999",
+        "modelname": "Maruti Swift",
+        "modeltype": "micro",
+        "modeldescription": "black",
+        "capacitypassengers": "3"
+    }
+},
+{
+    "_id": {
+        "$oid": "5aae39af734d1d1b8288f1df"
+    },
+    "driverid": "9456723112",
+    "first_name": "Dave",
+    "last_name": "Whatmore",
+    "birth_date": "25091986",
+    "driving_license_number": "EF1278G3",
+    "expiry_date": "20/09/2024",
+    "working": "1",
+    "emai": "amitabh27993@gmail.com",
+    "driverlocation": "12.8697785 77.65331159999999",
+    "contactno": "9456723112",
+    "ratings": {
+        "ridescompleted": "1",
+        "avgrating": "4",
+        "ridescancelled": "0",
+        "behaviour": "5",
+        "drivingskills": "5",
+        "timelypickupdrop": "5",
+        "conditionofvehicle": "5"
+    },
+    "vehicleused": {
+        "carmodelid": "GCHonda789",
+        "licenseplate": "MH05 6712",
+        "chassisnumber": "FT127898",
+        "modelname": "Honda Ritz",
+        "modeltype": "primesuv",
+        "modeldescription": "white",
+        "capacitypassengers": "3"
+    }
+},
+{
+    "_id": {
+        "$oid": "5ad5c9adc2ef164ad1b663e2"
+    },
+    "driverid": "9820364381",
+    "first_name": "Sam",
+    "last_name": "Billings",
+    "birth_date": "25091986",
+    "expiry_date": "20/09/2024",
+    "working": "1",
+    "email": "amitabh27993@gmail.com",
+    "driverlocation": "12.8462148 77.668798",
+    "contactno": "9820364381",
+    "ratings": {
+        "ridescompleted": "13",
+        "avgrating": "3.6",
+        "ridescancelled": "0",
+        "behaviour": "3.4",
+        "drivingskills": "3.6",
+        "timelypickupdrop": "3.6",
+        "conditionofvehicle": "3.6"
+    },
+    "vehicleused": {
+        "carmodelid": "GCHonda789",
+        "licenseplate": "MH05 6712",
+        "chassisnumber": "FT127898",
+        "modelname": "Honda Ritz",
+        "modeltype": "mini",
+        "modeldescription": "White",
+        "capacitypassengers": "3"
+    }
+}

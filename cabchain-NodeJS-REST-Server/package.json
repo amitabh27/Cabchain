@@ -1,0 +1,33 @@
+{
+  "name": "Cabchain",
+  "version": "1.0.0",
+  "description": "DAPP CabService",
+  "main": "app.js",
+  "scripts": {
+    "start": "env TZ='India/Bangalore' node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amitabh Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nexmo": "*",
+    "nodemailer": "*",
+    "parse-int": "^1.0.2",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+	"node-datetime":"*"
+  }
+}

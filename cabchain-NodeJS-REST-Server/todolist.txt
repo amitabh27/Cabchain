@@ -1,0 +1,18 @@
+In onclick function of finish ride by driver :
+Call APIs for sending invoice to user (msg,email)
+
+Complete User screens till he rates the driver
+
+Draw polylines in 4 activities
+
+Driver should broadcast his location, whenever he is logged in his app (but not all activities are refresh enabled)
+
+In Login part, using local storage so that not everytime the user/driver has to enter OTP-->directly home page opens
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Improving UI
+Thinking on payment (if we want to give it a shot)

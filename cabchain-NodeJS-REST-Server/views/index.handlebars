@@ -1,0 +1,76 @@
+ <h2 class="page-header">Dashboard</h2><br><br>
+ 
+ {{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+
+<form method="post" action="/users/fareupdate">
+  <div class="form-group">
+    <label>Update Fare Matrix</label>
+    <textarea rows="10" cols="100"  class="form-control"  name="fare">{
+            "cityname": "mumbai",
+            "micro": {
+                "basefare": "50",
+                "tilldistance": "20",
+                "tillfareperkm": "6",
+                "afterperkm": "14",
+                "faretimepermin": "1.5",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "mini": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "8",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "primesedan": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "primesuv": {
+                "tillbasedistance": "4",
+                "basefare": "150",
+                "afterperkm": "17",
+                "faretimepermin": "2",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "primeplay": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "lux": {
+                "basefare": "300",
+                "tilldistance": "20",
+                "tillfareperkm": "25",
+                "afterperkm": "30",
+                "faretimepermin": "3",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "auto": {
+                "basefare": "22",
+                "basedistance": "1.5",
+                "afterperkm": "15"
+            }
+        }</textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Update</button>
+</form>
+  

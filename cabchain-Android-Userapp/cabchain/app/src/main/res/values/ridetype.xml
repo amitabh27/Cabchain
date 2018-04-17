@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ride_names">
+        <item>quotes</item>
+        <item>ridescancelled</item>
+        <item>behaviour</item>
+        <item>ridescompleted</item>
+        <item>avgrating</item>
+        <item>timelypickupdrop</item>
+        <item>conditionofvehicle</item>
+    </string-array>
+</resources>

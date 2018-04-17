@@ -1,0 +1,56 @@
+
+<h6>Please help us with below details!</h6>
+
+<h2 class="page-header">Personal Information</h2>
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+<form method="post" action="/users/details">
+
+
+
+
+  <div class="form-group">
+    <label>OTP</label>
+    <input type="text" class="form-control" placeholder="OTP has been sent to your Aadhar Registered Number" name="otp">
+  </div>
+  <div class="form-group">
+    <label>License Number</label>
+    <input type="text" class="form-control" placeholder="" name="license">
+  </div>
+    <div class="form-group">
+    <label>Expiry Date</label>
+    <input type="text" class="form-control" placeholder="DDMMYYYY" name="expiry">
+  </div>
+    <div class="form-group">
+    <label>Contact Number</label>
+    <input type="text" class="form-control" placeholder="for logging into Cabchain App" name="contact">
+  </div>
+  <div class="form-group">
+    <label>Aadhar Number</label>
+    <input type="text" class="form-control" placeholder="" name="aadhaar">
+  </div>
+
+
+  
+  <br><br>
+  
+<h2 class="page-header">Vehicle Information</h2>
+    <div class="form-group">
+    <label>Model Name</label>
+    <input type="text" class="form-control" placeholder="eg. Honda Ritz" name="modelname">
+  </div>
+    <div class="form-group">
+    <label>Model Type</label>
+    <input type="text" class="form-control" placeholder="mini/micro/sedan/suv/lux/auto" name="modeltype">
+  </div>
+    <div class="form-group">
+    <label>Model Description</label>
+    <input type="text" class="form-control" placeholder="eg. White" name="modeldescription">
+  </div>
+
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>

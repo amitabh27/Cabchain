@@ -1,0 +1,190 @@
+{
+    "_id": {
+        "$oid": "5a728583bd966f146b79e715"
+    },
+    "farematrix": [
+        {
+            "cityname": "bengaluru",
+            "micro": {
+                "basefare": "30",
+                "tilldistance": "15",
+                "tillfareperkm": "5",
+                "afterperkm": "12",
+                "faretimepermin": "1.5",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "mini": {
+                "basefare": "40",
+                "tilldistance": "15",
+                "tillfareperkm": "6",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "primesedan": {
+                "basefare": "40",
+                "tilldistance": "15",
+                "tillfareperkm": "8",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "primesuv": {
+                "basefare": "140",
+                "tillbasedistance": "4",
+                "afterperkm": "14",
+                "faretimepermin": "1",
+                "cancellationnow": "100",
+                "cancellationafter": "100"
+            },
+            "primeplay": {
+                "basefare": "40",
+                "tilldistance": "15",
+                "tillfareperkm": "8",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "lux": {
+                "basefare": "300",
+                "tilldistance": "15",
+                "tillfareperkm": "25",
+                "afterperkm": "30",
+                "faretimepermin": "3",
+                "cancellationnow": "100",
+                "cancellationafter": "100"
+            },
+            "auto": {
+                "basefare": "22",
+                "basedistance": "1.9",
+                "afterperkm": "11"
+            }
+        },
+        {
+            "cityname": "mumbai",
+            "micro": {
+                "basefare": "50",
+                "tilldistance": "20",
+                "tillfareperkm": "6",
+                "afterperkm": "14",
+                "faretimepermin": "1.5",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "mini": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "8",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "primesedan": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "primesuv": {
+                "basefare": "150",
+                "tillbasedistance": "4",
+                "afterperkm": "17",
+                "faretimepermin": "2",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "primeplay": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "lux": {
+                "basefare": "300",
+                "tilldistance": "20",
+                "tillfareperkm": "25",
+                "afterperkm": "30",
+                "faretimepermin": "3",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "auto": {
+                "basefare": "22",
+                "basedistance": "1.5",
+                "afterperkm": "15"
+            }
+        },
+        {
+            "cityname": "delhi",
+            "micro": {
+                "basefare": "50",
+                "tilldistance": "20",
+                "tillfareperkm": "6",
+                "afterperkm": "14",
+                "faretimepermin": "1.5",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "mini": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "8",
+                "afterperkm": "16",
+                "faretimepermin": "1",
+                "cancellationnow": "50",
+                "cancellationafter": "75"
+            },
+            "primesedan": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "primesuv": {
+                "basefare": "150",
+                "tillbasedistance": "4",
+                "afterperkm": "17",
+                "faretimepermin": "2",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "primeplay": {
+                "basefare": "70",
+                "tilldistance": "20",
+                "tillfareperkm": "11",
+                "afterperkm": "16",
+                "faretimepermin": "1.25",
+                "cancellationnow": "75",
+                "cancellationafter": "100"
+            },
+            "lux": {
+                "basefare": "300",
+                "tilldistance": "20",
+                "tillfareperkm": "25",
+                "afterperkm": "30",
+                "faretimepermin": "3",
+                "cancellationnow": "75",
+                "cancellationafter": "75"
+            },
+            "auto": {
+                "basefare": "22",
+                "basedistance": "1.5",
+                "afterperkm": "15"
+            }
+        }
+    ]
+}

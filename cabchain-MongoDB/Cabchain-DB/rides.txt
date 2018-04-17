@@ -1,0 +1,80 @@
+{
+    "_id": {
+        "$oid": "5ad5c11dc2ef164ad1b60589"
+    },
+    "driverid": "9820364381",
+    "userid": "9820364381",
+    "ridetrackingno": "709",
+    "ridestarttime": "15:12",
+    "rideendtime": "15:13",
+    "addressstartingpoint": "Electronic City Road, Electronics City Phase 1, Electronic City, Bengaluru, Karnataka 560100, India",
+    "GPSstartingpoint": "12.846280499999999 77.671449 ",
+    "addressendingpoint": "Marathahalli - Sarjapur Outer Ring Rd, HSR Layout, Bengaluru, Karnataka 560103, India",
+    "GPSendingpoint": "12.92349 77.6710366 ",
+    "fare": [
+        "179.40",
+        "201.20",
+        "346.40",
+        "231.20",
+        "231.20",
+        "195.80"
+    ],
+    "distance": "17.7",
+    "otp": "1203",
+    "cancelled": "0",
+    "quoted": [
+        {
+            "driver": "9820364381",
+            "fare": "195",
+            "rejected": "0"
+        }
+    ],
+    "status": [
+        "Ride Booked",
+        "Driver Assigned",
+        "Driver Reached pickup point",
+        "Ongoing",
+        "Ride Started",
+        "Destination Reached"
+    ]
+},
+{
+    "_id": {
+        "$oid": "5ad5c87bc2ef164ad1b64e33"
+    },
+    "driverid": "9820364381",
+    "userid": "9820364381",
+    "ridetrackingno": "820",
+    "ridestarttime": "15:46",
+    "rideendtime": "15:46",
+    "addressstartingpoint": "Electronic City Road, Electronics City Phase 1, Electronic City, Bengaluru, Karnataka 560100, India",
+    "GPSstartingpoint": "12.846280499999999 77.671449 ",
+    "addressendingpoint": "Marathahalli - Sarjapur Outer Ring Rd, HSR Layout, Bengaluru, Karnataka 560103, India",
+    "GPSendingpoint": "12.92349 77.6710366 ",
+    "fare": [
+        "179.40",
+        "201.20",
+        "346.40",
+        "231.20",
+        "231.20",
+        "195.80"
+    ],
+    "distance": "17.7",
+    "otp": "5492",
+    "cancelled": "0",
+    "quoted": [
+        {
+            "driver": "9820364381",
+            "fare": "195",
+            "rejected": "0"
+        }
+    ],
+    "status": [
+        "Ride Booked",
+        "Driver Assigned",
+        "Driver Reached pickup point",
+        "Ongoing",
+        "Ride Started",
+        "Destination Reached"
+    ]
+}

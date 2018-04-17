@@ -1,0 +1,8 @@
+{
+    "_id": {
+        "$oid": "5a7184d8ff4218318824d3f6"
+    },
+    "username": "amitabh.tiwari@iiitb.org",
+    "password": "$2a$10$BUIXf8LTqk2Lay.mNBSxUOKvUdYr4EEQL7LotBRWoioVQVdPyw2fO",
+    "__v": 0
+}

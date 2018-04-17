@@ -1,0 +1,11 @@
+{
+    "_id": {
+        "$oid": "5a72ed5c734d1d71dd53bf0e"
+    },
+    "name": "steve smith",
+    "dob": "27091993",
+    "gender": "male",
+    "address": "603-6,max towers,lalbagh road,banashankari,bangalore-560001,karnataka,india",
+    "number": "919820364381",
+    "uid": "444123235666"
+}

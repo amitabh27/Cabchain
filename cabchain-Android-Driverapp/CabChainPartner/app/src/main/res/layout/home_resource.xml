@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dip">
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:id="@+id/ridedetails"
+        android:layout_marginLeft="2dip">
+    </TextView>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:hint="Quote Price"
+        android:layout_width="wrap_content"
+        android:id="@+id/PriceQuotation"
+        android:layout_below="@+id/ridedetails"
+        android:inputType="number"
+        android:layout_marginLeft="2dip">
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/PriceQuotation"
+        android:layout_marginStart="61dp"
+        android:layout_toEndOf="@+id/PriceQuotation"
+        android:text="Button" />
+
+
+</RelativeLayout>

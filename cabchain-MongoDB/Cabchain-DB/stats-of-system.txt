@@ -1,0 +1,10 @@
+{
+    "_id": {
+        "$oid": "5a698530734d1d0dbaa0b659"
+    },
+    "registered-users": "2",
+    "registered-drivers": "3",
+    "rides-completed": "2",
+    "rides-ongoing": "0",
+    "rides-cancelled": "0"
+}

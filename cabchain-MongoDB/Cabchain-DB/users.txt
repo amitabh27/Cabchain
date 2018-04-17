@@ -1,0 +1,32 @@
+{
+    "_id": {
+        "$oid": "5a6c1942734d1d630318d21e"
+    },
+    "userid": "9867685304",
+    "firstname": "rachit",
+    "lastname": "kulkarni",
+    "mobile": "9867685304",
+    "email": "kulkarni.rachit@gmail.com",
+    "ridescompleted": {
+        "count": "0",
+        "averagerating": "5",
+        "behaviour": "5",
+        "cancelledrides": "0"
+    }
+},
+{
+    "_id": {
+        "$oid": "5ad5c985bd966f79431da9b1"
+    },
+    "userid": "9820364381",
+    "firstname": "amitabh",
+    "lastname": "tiwari",
+    "mobile": "9820364381",
+    "email": "amitabh.tiwari27@gmail.com",
+    "ridescompleted": {
+        "count": "17",
+        "averagerating": "3.8",
+        "behaviour": "3.8",
+        "cancelledrides": "0"
+    }
+}

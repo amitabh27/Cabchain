@@ -1,0 +1,8 @@
+{
+    "_id": {
+        "$oid": "5a72edec734d1d71dd53bf7c"
+    },
+    "number": "MH06 KA 4562",
+    "chassis": "FR3456712",
+    "enginenumber": "GC Maruti4512"
+}
