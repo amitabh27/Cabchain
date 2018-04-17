@@ -40,6 +40,11 @@ Decentralized implementation of Cab Service which involves peer-to-peer networki
 
 ![architecture](https://github.com/amitabh27/Cabchain/blob/master/images/archi.jpg)
 
+# Working of Apps
+
+![Customer App](https://github.com/amitabh27/Cabchain/blob/master/images/usergif.gif) ![Driver App](https://github.com/amitabh27/Cabchain/blob/master/images/drivergif.gif)
+
+
 # APIs available 
 
 <ul>
