@@ -32,5 +32,94 @@ Decentralized implementation of Cab Service which involves peer-to-peer networki
   <li>Nexmo : Messaging APIs</li>
   <li>NodeMailer : Email APIs</li>
    <li>Hyperledger Composer REST Server</li>
-   <li>Ngrok : For tunneling to Composer Server</li>
+   <li>Ngrok : For tunneling to Composer Server (https://31032026.ngrok.io)</li>
 </ul>
+
+
+# Architecture
+
+![architecture](https://github.com/amitabh27/Cabchain/blob/master/images/archi.jpg)
+
+# APIs available 
+
+<ul>
+  <li>serverauth.herokuapp.com<br>
+    <ul>
+      <li>/aadhaar/:number/:name/:gender/:dob/:address</li>
+      <li>/vahaan/:number/:chassis/:enginenumber</li>
+    </ul>
+  </li>
+  <li>cabchain.herokuapp.com  <a href="https://github.com/amitabh27/Cabchain/blob/master/cabchain-NodeJS-REST-Server/routes/users.js">Link to Code</a><br>
+    <ul>
+      <li>/register</li>
+      <li>/login</li>
+      <li>/fareupdate</li>
+      <li>/contact</li>
+      <li>/details</li>
+      <li>/register</li>
+      <li>/login</li>
+      <li>/logout</li>
+      <li>/userredirection-pickup/:ridetrackingno</li>
+      <li>/userredirection-finish/:ridetrackingno</li>
+      <li>/updatedriverratings/:driverno/:overallrating/:behaviour/:drivingskills/:timelypickupdrop/:conditionofvehicle</li>
+      <li>/updateuserratings/:userno/:overallrating/:behaviour/:ridetrackingno</li>
+      <li>/matchotp/:ridetrackingno/:otp</li>
+      <li>/suggestionstousers/:ridetrackingno/:sortby/:ridetype</li>
+      <li>/ridereject/:ridetrackingno/:driverno</li>
+       <li>/rideaccept/:ridetrackingno/:driverno</li>
+       <li>/driverquote/:driver/:ridetrackingno/:quote</li>
+       <li>/newrequests-driversuggestion/:phone</li>
+       <li>/riderequestplaced/:userid/:ridetrackingno/:addressSP/:addressEP/:gpsSP/:gpsEP/:fare/:distance/:otp</li>
+       <li>/getdriverlocations</li>
+       <li>/promotionalsms/:name/:phone/:receiverphone</li>
+       <li>/previousrides/:mobile</li>
+       <li>/driver-location/:mobile</li>
+       <li>/driver-previousrides/:mobile</li>
+       <li>/getUsername/:phone</li>
+       <li>/ratecard/:city</li>
+       <li>/userOTPLogin/:phone/:otp</li>
+       <li>/useradd/:phone/:email/:name</li>
+       <li>/userlogin/:phone</li>
+       <li>/userratings/:phone</li>
+       <li>/driverratings/:phone</li>
+       <li>/driverlogin/:phone</li>
+       <li>/fare-computation-government-rates/:src/:dest</li>
+       <li>/olafare/:src/:dest/:type</li>
+       <li>/otpgeneration</li>
+       <li>/support/:email/:name/:query</li>
+       <li>/rideotp/:requestID</li>
+       <li>/sendinvoice/:requestID</li>
+      <li>/smsinvoice/:requestID</li>
+    </ul>
+  </li>
+  <li>ngrok.io<br>
+    <ul>
+      <li>https://31032026.ngrok.io/api/driver/driverid</li>
+      <li>https://31032026.ngrok.io/api/Ride</li>
+      <li>https://31032026.ngrok.io/api/user/</li>
+    </ul>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
