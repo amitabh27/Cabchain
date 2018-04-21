@@ -1,0 +1,73 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * Write your model definitions here
+ */
+
+namespace org.acme.cabchain
+
+participant driver identified by driverid {
+  o String driverid
+  o String first_name
+  o String last_name
+  o String birth_date
+  o String expiry_date
+  o String working
+  o String email
+  o String driverlocation
+  o String contactno
+  o String ridescompleted
+  o String avgrating
+  o String ridescancelled
+  o String behaviour
+  o String drivingskills
+  o String timelypickupdrop
+  o String conditionofvehicle
+  o String carmodelid
+  o String licenseplate
+  o String chassisnumber
+  o String modelname
+  o String modeltype
+  o String modeldescription
+  o String capacitypassengers
+}
+
+participant user identified by userid {
+  o String userid
+  o String firstname
+  o String lastname
+  o String mobile
+  o String email
+  o String count
+  o String averagerating
+  o String behaviour
+  o String cancelledrides
+}
+
+transaction Ride {
+  
+  o String bookingId
+  o String driverid
+  o String userid
+  o Integer ridetrackingno
+  o String ridestarttime
+  o String rideendtime
+  o String addressstartingpoint
+  o String GPSstartingpoint
+  o String addressendingpoint
+  o String GPSendingpoint
+  o Integer otp 
+  o Integer fare
+}
